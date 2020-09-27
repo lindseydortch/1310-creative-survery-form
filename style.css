@@ -1,0 +1,130 @@
+/* Colors 
+
+seashell pink: #fff0e9 rgb(255, 240, 233);
+
+your pink: #ffd0c8 rgb(255, 208, 200);
+
+mona lisa (pink): #ff928f rgb(255, 146, 143);
+
+nepal (blue): #83aab9 rgb(131, 170, 185);
+
+rolling stone (grey): #777f82 rgb(119, 127, 130);
+
+plantation (greenish blue): #29464a rgb(41, 70, 74);
+
+*/
+
+/* fonts
+
+font-family: 'Raleway', sans-serif;
+
+*/
+
+:root {
+    --seashell-pink: #fff0e9;
+    --your-pink: #ffd0c8;
+    --mona-lisa: #ff928f;
+    --nepal: #83aab9;
+    --rolling-stone: #777f82;
+    --plantation: #29464a;
+}
+
+/* Borders */
+
+/* .overallForm > * {
+    border: 5px solid crimson;
+}
+
+form > * {
+    border: 5px solid chocolate;
+} */
+
+/* Overall */
+
+body {
+    margin: 0 auto;
+}
+
+.overallForm {
+    background: url('https://images.unsplash.com/photo-1506422748879-887454f9cdff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--your-pink);
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+
+.overlay {
+    background-color: rgba(41, 70, 74, 0.7);
+    height:100%;
+}
+
+/* header */
+
+h1, p {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    text-shadow: 4px 4px rgba(119, 127, 130, 0.2);
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* Form */
+
+.surveySection {
+    background: rgba(119, 127, 130, 0.7);
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+form {
+    padding: 40px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"], input[type="email"], select {
+    width: 99%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+select {
+    height: 40px;
+    width: 100%;
+}
+
+.formGroup {
+    padding-bottom: 10px;
+}
+
+input[type="submit"] {
+    background: rgba(255, 208, 200, 0.7);
+    border: 0;
+    border-radius: 3px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#suggestions, #newServices {
+    height: 80px;
+}
+
+
+
